@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
     private void saveToSharedPreferences(SharedPreferences sharedPref) {
         EditText editText = (EditText) findViewById(R.id.editText);
 
-        if((editText.getText().toString() != null) && !(editText.getText().toString().isEmpty())) {
+        if((editText.getText().toString() != null)
+                && !(editText.getText().toString().isEmpty())) {
             SharedPreferences.Editor editor = sharedPref.edit();
             editor.putString(getString(R.string.shared_prefs_key_text), editText.getText().toString());
             editor.commit();
