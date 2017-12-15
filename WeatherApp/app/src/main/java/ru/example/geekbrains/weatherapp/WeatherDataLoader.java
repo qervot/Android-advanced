@@ -18,6 +18,7 @@ class WeatherDataLoader {
 
     private static final String OPEN_WEATHER_MAP_API = "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric";
     private static final String KEY = "x-api-key";
+    private static final String OPEN_API_MAP ="8ba9d30c092c460e8232582e3a2c2941";
     private static final String RESPONSE = "cod";
     private static final String NEW_LINE = "\n";
     private static final int ALL_GOOD = 200;

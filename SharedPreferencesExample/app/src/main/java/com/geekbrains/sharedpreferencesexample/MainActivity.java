@@ -76,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadPrefs() {
         SharedPreferences sharedPref = getPreferences(Context.MODE,PRIVATE);
+
+
         // загружаем из SharedPreferences значение нашего ключа
         String loadedPrefs = sharedPref.getString(getString(R.string.shared_prefs_key_text),getString(R.string.pref));
         // записываем значение в TextView
