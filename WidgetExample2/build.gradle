@@ -5,6 +5,13 @@ buildscript {
         jcenter()
     }
     dependencies {
+        // google mobile vision
+        implementation 'com.google.android.gms:play-services-vision:11.0.2'
+
+        // barcode reader
+        implementation 'info.androidhive:barcode-reader:1.1.5'
+    }
+
         classpath 'com.android.tools.build:gradle:2.2.3'
 
         // NOTE: Do not place your application dependencies here; they belong
